@@ -1,14 +1,11 @@
-import java.util.Scanner ;
-
-import javax.sql.StatementEventListener;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.Scanner;
 
-public class principal {
-    public static void main(String[] args ){
+public class atual {
+       public static void main(String[] args ){
         String url = "jdbc:mysql://localhost:3306/";
         String user = "root";
         String senha = "0910";
@@ -55,4 +52,7 @@ public class principal {
         return linha + "\n" + mensagem  + "\n" + linha ;
     }
 }
+
+
+    
 
